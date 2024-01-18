@@ -1,0 +1,40 @@
+.basket-image{
+    width: 20%;
+    img{
+        width: 100%;
+    }
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+border-collapse: collapse;
+    thead{
+        tr{
+            th{
+                border: 1px solid black;
+                
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                border: 1px solid black;
+                
+                .btn{
+                    padding: 10px;
+                    border: none;
+                    background-color: #B6332D;
+                    color: white;
+                }
+                .inc-btn{
+                    padding: 5px;
+                    background-color: white;
+                    color: #000;
+                    border: 1px solid #000;
+                }
+            }
+        }
+    }
+}

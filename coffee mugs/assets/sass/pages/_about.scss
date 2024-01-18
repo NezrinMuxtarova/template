@@ -1,0 +1,28 @@
+#about-section{
+    margin-top: 50px;
+    text-align: center;
+    #about{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .about-section{
+            
+            width: 60%;
+            .about-text-one{
+                font-size: 2rem;
+              
+    
+            }
+            .about-text-two{
+                opacity: .7;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            a{
+                color: #a1702f;
+                text-decoration: solid;
+            }
+        }
+    }
+}

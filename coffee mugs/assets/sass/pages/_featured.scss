@@ -1,0 +1,87 @@
+#featured {
+  margin-top: 50px;
+  h5 {
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 50px;
+  }
+  .featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    .featured-card-one {
+      transition: all 0.5s;
+      position: relative;
+
+      &:hover {
+        .rg {
+          display: block;
+        }
+        .mug-btn {
+          opacity: 1;
+
+          bottom: 100px;
+        }
+      }
+      width: 50%;
+      .image {
+        transition: all 0.5s;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: transform 0.8s;
+          &:hover {
+            transform: scale(1.2);
+        }
+    }
+    // .rg {
+    //   background-color: rgba(29, 31, 46, 0.1);
+    //   display: none;
+    //   justify-content: center;
+    //   align-items: center;
+    //   height: 94%;
+    //   width: 100%;
+    //   top: 0;
+    //   position: absolute;
+    // }
+}
+      .mug-btn {
+        transition: all 1s;
+        border: none;
+        width: 80%;
+        padding: 10px 20px;
+        background-color: white;
+        position: absolute;
+        left: 50px;
+        bottom: 0;
+        color: black;
+        text-align: center;
+        opacity: 0;
+      }
+      .featured-text {
+        text-align: center;
+        position: relative;
+        .f-price {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+.price {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  text-align: center;
+  .f-price {
+    color: #a1702f;
+    opacity: 1 !important;
+  }
+  .f-price-two {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "cofee": [
+    {
+      "id": 1,
+      "image": "../../assets/image/data-9.jpg",
+      "title": "Red Love Cup",
+      "price": 37.00
+    },
+    {
+      "id": 2,
+      "image": "./assets/image/data-5.jpg",
+      "title": "vimiduzara@mailinator.com",
+      "price": 40.00
+    },
+    {
+      "id": 3,
+      "image": "../../assets/image/data-6.jpg",
+      "title": "B&W Essentials Mug",
+      "price": 19.00
+    },
+    {
+      "id": 5,
+      "image": "../../assets/image/data-4.jpg",
+      "title": "Winter Style Mug",
+      "price": 25.00
+    },
+    {
+      "id": 6,
+      "image": "../../assets/image/data-11.jpg",
+      "title": "Ceramic Tea",
+      "price": 46.00
+    },
+    {
+      "id": 7,
+      "image": "./assets/image/data-10.jpg",
+      "title": "No Handle Bar Cup",
+      "price":34.00
+    },
+    {
+      "id": 8,
+      "title": "Espresso Cup by Mugs.co",
+      "price": 25.00,
+      "image": "../../assets/image/data-2.jpg"
+    },
+    {
+      "id": 9,
+      "image": "../../assets/image/f-img1.jpg",
+      "title": "Pink Premium Ceramic",
+      "price": 99.00
+    },
+    {
+      "id": 10,
+      "image": "./assets/image/data-7.jpg",
+      "title": "Summer Designer Cup",
+      "price":29.00
+    }
+  ]
+}

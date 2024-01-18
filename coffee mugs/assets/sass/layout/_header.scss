@@ -1,0 +1,37 @@
+header {
+  padding: 1rem 0;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-left{
+        cursor: pointer;
+        a{
+            color: #000;
+        }
+    }
+    .header-right{
+        nav{
+
+            ul{
+    
+                display: flex;
+                gap: 10px;
+                li{
+                    .active{
+                        opacity: 1;
+                    }
+                    a{
+                        color: #000;
+                        opacity: .6;
+                        transition: all 0.5s;
+                        &:hover{
+                            opacity: 1 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+}
